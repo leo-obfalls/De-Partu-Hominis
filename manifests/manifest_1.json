@@ -1,0 +1,101 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://leo-obfalls.github.io/De-Partu-Hominis/manifests/manifest_1.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://631386d8-9c6a-4e41-acee-520d1dbf557f",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://654ea4a7-613f-4229-a588-10f58cad7215",
+      "@type" : "sc:Canvas",
+      "label" : "De Partu Hominis",
+      "height" : 1848,
+      "width" : 1192,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://231abcae-5f19-4370-ae6a-b163b4e7c215",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/de-p-h-1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/de-p-h-1",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1848,
+          "width" : 1192
+        },
+        "on" : "http://654ea4a7-613f-4229-a588-10f58cad7215"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9600fb42-989a-4338-b76c-b153e237c0a7",
+      "@type" : "sc:Canvas",
+      "label" : "De Partu Hominis",
+      "height" : 1840,
+      "width" : 1208,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://683e6032-e5ae-4578-abcf-b47b40461698",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/de-p-h-2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/de-p-h-2",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1840,
+          "width" : 1208
+        },
+        "on" : "http://9600fb42-989a-4338-b76c-b153e237c0a7"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://13068050-b716-4b73-9387-c1bc9d75317a",
+      "@type" : "sc:Canvas",
+      "label" : "De Partu Hominis",
+      "height" : 1840,
+      "width" : 1192,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a52bcf5b-c37e-4ac3-93d9-1c6e59b2ce95",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/de-p-h-3/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/de-p-h-3",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1840,
+          "width" : 1192
+        },
+        "on" : "http://13068050-b716-4b73-9387-c1bc9d75317a"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
